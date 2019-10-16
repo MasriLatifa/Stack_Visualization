@@ -12,37 +12,38 @@
     <div class="main">
         <div class="content_header">
             <header>
-                Stack JS Visualization
+                <h3>Stack JS Visualization</h3>
             </header>
         </div>
         <div class="main_content">
             <div class="stacks">
                 <div class="stack_container">
                     <div class="stack_item">
-                        <div>
-                            item 1
+                        <div class="item_no">
+                            item 5
                         </div>
                     </div>
                     <div class="stack_item">
-                        <div>
-                            item 2
-                        </div>
-                    </div>
-                    <div class="stack_item">
-                        <div>
-                            item 3
-                        </div>
-                    </div>
-                    <div class="stack_item">
-                        <div>
+                        <div class="item_no">
                             item 4
                         </div>
                     </div>
                     <div class="stack_item">
-                        <div>
-                            item 5
+                        <div class="item_no">
+                            item 3
                         </div>
                     </div>
+                    <div class="stack_item">
+                        <div class="item_no">
+                            item 2
+                        </div>
+                    </div>
+                    <div class="stack_item">
+                        <div class="item_no">
+                            item 1
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="stack_operation_container">
@@ -67,15 +68,21 @@
                     </button>
                 </div>
                 <div class="output_op">
-                    <div>
+                    <div class="oninput">
                         <button type="button" value="size of stack" id="size" name="size">
                                 size of stack
                         </button>
+                        <div>
+                            <output name="stackSize" for="size"></output>
+                        </div>
                     </div>
-                    <div>
+                    <div class="oninput">
                         <button type="button" value="is empty" id="is_empty" name="is empty">
                                 Is empty
                         </button>
+                        <div>
+                            <output name="IsEmpty" for="is_empty"></output>
+                        </div>
                     </div>
                 </div>
                 <div>
